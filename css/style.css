@@ -1,0 +1,29 @@
+.header {
+    margin-top: 80px;
+    margin-left: 52px;
+    
+
+
+}
+.title1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #282828;
+}
+.title2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 54px;
+    text-align: center;
+    color: #282828;
+    margin-top: 4px;
+}
+.paragraph {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #5F6980; 
+    margin-top: 16px;  
+    
+
+}
