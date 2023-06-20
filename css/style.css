@@ -33,7 +33,7 @@
     flex-flow: row wrap;
     width: 1336px;
     margin-top: 48px;
-    margin-left: 52px;
+    margin-left: 159px;
     margin-right: 52px;
     justify-content: space-between;
     align-items: center;
@@ -69,4 +69,51 @@
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     color: #5F6980;
+}
+.icon-box {
+    width: 140px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.facebook {
+    width: 36px;
+    height: 36px;
+    border-radius: 100px;
+    background-color:  #F2F4F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.instagram {
+    width: 36px;
+    height: 36px;
+    border-radius: 100px;
+    background-color:  #F2F4F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter {
+    width: 36px;
+    height: 36px;
+    border-radius: 100px;
+    background-color:  #F2F4F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    background-color: #535353;
+    width: 1654px;
+    height: 512px;
+    margin-top: 48px;
+    margin-left: 107px;
 }
