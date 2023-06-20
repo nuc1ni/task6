@@ -111,9 +111,106 @@
     align-items: center;
 }
 .footer {
-    background-color: #535353;
+    
+    background-color: rgba(83, 83, 83, 0.33);
     width: 1654px;
     height: 512px;
     margin-top: 48px;
     margin-left: 107px;
+}
+.footer-main {
+    padding-top: 108px;
+    padding-bottom: 181px;
+    
+    padding-right: 184px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 318.05px;
+    height: 221px;
+    margin-left: 1px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-paragraph {
+    width: 306.05px;
+    height: 73px;
+    margin-top: 32px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #535353;
+}
+.footer-icon {
+    width: 104px;
+    height: 24px;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+.footer-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
+    color: #1E1E1E;
+}
+.navigation {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #535353;
+    margin-top: 71px;
+
+}
+.website-links {
+    width: 136px;
+    height: 223px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 144.98px;
+
+}
+.li-item {
+    margin-top: 15px;
+}
+.service-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #1E1E1E;
+}
+.service-a-item {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #535353;
+    padding-top: 24px;
+}
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 298px;
+}
+.languages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 255px;
+}
+.footer-language {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #1E1E1E;
+}
+.English {
+    margin-top: 58.45px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #1E1E1E;
 }
