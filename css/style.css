@@ -198,6 +198,9 @@
     font-size: 14px;
     color: #535353;
     margin-top: 71px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
 }
 .website-links {
@@ -205,12 +208,14 @@
     height: 223px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     
 
 }
 .li-item {
-    margin-top: 15px;
+    margin-top: 30px;
+    
 }
 .service-title {
     font-family: 'Inter', sans-serif;
@@ -249,8 +254,22 @@
     color: #1E1E1E;
 }
 .English {
-    margin-top: 58.45px;
+    
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-    color: #1E1E1E;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+.footer-english {
+    width: 80px;
+    height: 45px;
+    margin-top: 58.45px;
+    background-color: #054A68;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
