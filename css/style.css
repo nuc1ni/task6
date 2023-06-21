@@ -27,10 +27,16 @@
     
 
 }
+.section-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
 .section {
     
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     width: 1336px;
     margin-top: 48px;
     margin-left: 159px;
@@ -41,6 +47,10 @@
     
     
 
+}
+.elements {
+    width: 310px;
+    height: 430px;
 }
 
 .child-element {
@@ -59,16 +69,18 @@
 
 }
 
-.professio {
+.profession {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     color: #3E3E59;
+    margin-top: 4px;
 }
 
 .section-paragraph {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     color: #5F6980;
+    margin-top: 8px;
 }
 .icon-box {
     width: 140px;
@@ -110,6 +122,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
 .footer {
     
     background-color: rgba(83, 83, 83, 0.33);
@@ -117,8 +134,18 @@
     height: 512px;
     margin-top: 48px;
     margin-left: 107px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
 }
+
+    
+
 .footer-main {
+    width: 1306px;
+    height: 512px;
     padding-top: 108px;
     padding-bottom: 181px;
     
@@ -126,8 +153,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    align-items: baseline;
 }
 .logo {
     width: 318.05px;
@@ -135,6 +163,10 @@
     margin-left: 1px;
     display: flex;
     flex-direction: column;
+}
+.image {
+    width: 100px;
+    height: 64px;
 }
 .footer-paragraph {
     width: 306.05px;
@@ -174,7 +206,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 144.98px;
+    
 
 }
 .li-item {
@@ -189,19 +221,27 @@
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     color: #535353;
-    padding-top: 24px;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
 }
 .services {
+    width: 199px;
+    height: 223px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 298px;
+    
 }
 .languages {
+    width: 107px;
+    height: 127.45px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 255px;
+    
 }
 .footer-language {
     font-family: 'Inter', sans-serif;
