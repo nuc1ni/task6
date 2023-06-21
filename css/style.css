@@ -6,13 +6,15 @@
 
 }
 .title1 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif; 
+    font-weight: bold;
     font-size: 16px;
     text-align: center;
     color: #282828;
 }
 .title2 {
     font-family: 'Inter', sans-serif;
+    font-weight: bold;
     font-size: 54px;
     text-align: center;
     color: #282828;
@@ -63,6 +65,7 @@
 }
 .name {
     font-family: 'Inter', sans-serif;
+    font-weight: bold;
     font-size: 18px;
     color: #282828;
     font-weight: 600px;
@@ -188,6 +191,7 @@
 }
 .footer-title {
     font-family: 'Inter', sans-serif;
+    font-weight: bold;
     font-size: 20px;
     font-weight: 600px;
     color: #1E1E1E;
@@ -219,6 +223,7 @@
 }
 .service-title {
     font-family: 'Inter', sans-serif;
+    font-weight: bold;
     font-size: 20px;
     color: #1E1E1E;
 }
@@ -250,6 +255,7 @@
 }
 .footer-language {
     font-family: 'Inter', sans-serif;
+    font-weight: bold;
     font-size: 20px;
     color: #1E1E1E;
 }
